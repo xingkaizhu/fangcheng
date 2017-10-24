@@ -4,7 +4,7 @@ int main (){
 	scanf("%f%f%f%f%f%f",&a,&b,&c,&d,&e,&f);
 	x=(f*b-c*e)/(b*d-e*f);
 	y=(f*a-c*d)/(e*a-b*d);
-	printf("x « %f£¨y « %f ",x,y);
+	printf("x is %f ,y is %f ",x,y);
 
 	return 0;
 }
